@@ -16,7 +16,9 @@ public class Dashboard extends JFrame implements ActionListener {
 
         setTitle("Student Management System");
 
-        setSize(700, 500);
+        setSize(700,500);
+
+        getContentPane().setBackground(new Color(117, 111, 232));
 
         setLayout(null);
 
